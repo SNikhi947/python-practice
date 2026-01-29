@@ -1,0 +1,15 @@
+a=[10,4,5,2,7,1,3]
+print(a[5])
+a[6]=20
+a.append(5)
+print(a)
+a.sort()
+print(a)
+a.reverse()
+print(a)
+a.sort(reverse=True)
+print(a)
+a.insert(3,12)
+print(a)
+a.sort()
+print(a)
